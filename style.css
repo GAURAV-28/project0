@@ -1,0 +1,127 @@
+#quote
+{
+    font-size: 24px;
+    margin-top: 36px;
+    text-align: center;
+    font-style: italic;
+
+}
+.para
+{
+    margin: 36px;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p::selection {
+    color: red;
+    background-color: yellow;
+}
+#quote p
+{
+    color: darkgrey;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: peachpuff;
+    color: black;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.p
+{
+    margin: 54px;
+    margin-right: 30%;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.p ul li::selection,.p h4::selection, .p ol li::selection
+{
+    color: red;
+    background-color: yellow;
+
+}
+
+
+th, td {
+   
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+
+}
+
+th {
+    background-color: lightgray;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container > div {
+    background-color: palegoldenrod;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 10px;
+    margin-left: 20px;
+    padding: 10px;
+    width: 500px;
+    height: 50%;
+}
+.blog
+{
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+@media (min-width: 600px) {
+    .right{
+        position: absolute;
+        right: 1%;
+        top: 18%;
+        width: 20%;
+    }
+}
+
+@media (max-width: 599px) {
+   .right{
+    position: absolute;
+    right: 1%;
+    top: 250px;
+    width: 20%;
+   }
+    }
+
+@media (min-width: 600px)
+{
+    table {
+        margin-top: 20px;
+        border: 2px solid black;
+        border-collapse: collapse;
+        width: 40%;
+    }
+}    
+@media(max-width: 599px)
+{
+    table {
+        margin-top: 20px;
+        border: 2px solid black;
+        border-collapse: collapse;
+        width: 100%;
+    }
+}
